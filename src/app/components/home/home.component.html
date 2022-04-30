@@ -1,0 +1,48 @@
+<main>
+    
+    <form novalidate>
+     <h1 >Kullanıcı Formu</h1>
+    <br>
+    <mat-form-field appearance="fill">
+       <mat-label>Numara</mat-label>
+        <input matInput name="userNumber">
+      </mat-form-field>
+      <mat-form-field appearance="fill">
+        <mat-label>Ad</mat-label>
+         <input matInput name="userName">
+       </mat-form-field>
+       <mat-form-field appearance="fill">
+        <mat-label>Soyad</mat-label>
+         <input matInput name="userSurname">
+       </mat-form-field>
+      <br>
+      <mat-form-field appearance="fill">
+        <mat-label>Tarife Para Birimi</mat-label>
+        <mat-select>
+          <mat-option value="one">USD</mat-option>
+          <mat-option value="two">EURO</mat-option>
+          <mat-option value="three">EURO</mat-option>
+          <mat-option value="four">EURO</mat-option>
+        </mat-select>
+      </mat-form-field>
+      
+      <mat-form-field appearance="fill">
+        <mat-label> Kdv oran bilgisi</mat-label>
+        <mat-select>
+          <mat-option value="oran1">%1</mat-option>
+          <mat-option value="oran2">%8</mat-option>
+          <mat-option value="oran3">%18</mat-option>
+        </mat-select>
+      </mat-form-field>
+      <br>
+      <mat-form-field appearance="fill">
+        <mat-label>Adres</mat-label>
+        <textarea matInput></textarea>
+      </mat-form-field>
+     <br>
+      <button mat-raised-button>Gönder</button>
+      
+      </form>
+
+
+</main>
